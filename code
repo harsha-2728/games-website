@@ -1,0 +1,1546 @@
+// home.HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Sports Organisation</title>
+  <link rel="stylesheet" type="text/css" href="home.css">
+
+
+</head>
+
+<body>
+	<header>
+	  <div class="logo">
+		<img src="electro.sport.png" alt="Berger Hut Logo">
+	  </div>
+    
+	  <nav>
+		<ul>
+		  <li><a href="Home1.html">Home</a></li>
+		  <li><a href="About.html">About</a></li>
+      <li><a href="Games.html">Games</a></li>
+		  <li><a href="contactus.html">Contact</a></li>
+      <li><a href="Gallery.html">Gallery</a></li>
+      <li><a href="shop.html">Shop now </a></li>
+      <li><a href="signup.html">Sign up</a></li>
+      
+      
+		</ul>`
+	  </nav>
+    
+  </header>
+  
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Welcome to Sports Organisation</h1>
+    <p>Experience the Pain</p>
+    <a href="#menu" class="btn">Explore </a>
+  </div>
+</section>
+
+<section class="about dark-theme">
+  <div class="about-content">
+    <h2>About Sports</h2>
+    <p>Sport pertains to any form of competitive physical activity or game that aims to use, maintain or improve our physical ability. Everyone loves to play games.</p><p> It plays an important part in improving physical and mental health. A good sport helps in building confidence and leadership skills.</p>
+    <a href="#menu" class="btn">Explore More Games</a>
+  </div>
+  <div class="about-image">
+    <img src="C:\Users\varh6\OneDrive\Desktop\Burger\GettyImages-1234540508.jpg" alt="About Image">
+  </div>
+</section>
+
+
+<section class="menu">
+  <h2>Games</h2>
+  <div class="menu-items">
+    <div class="menu-item">
+      <img src="C:\Users\varh6\OneDrive\Desktop\Burger\pngtree-burning-fire-football-background-image_5938642.jpg" alt="Burger 1">
+      <h3>Football</h3>
+      <p>Football is one of the most popular games in the world. It is a game of excitement and thrill as nobody knows at which moment match will take the turn. It can be said as the game of football is full of uncertainties</p>
+    </div>
+    <div class="menu-item">
+      <img src="C:\Users\varh6\OneDrive\Desktop\Burger\cricket.jpeg" alt="Burger 2">
+      <h3>Cricket</h3>
+      <p>It is easily one of the most prevalent sports in the world. This game consists of two teams that include 11 players each. The main aim of the game is to score the highest number of runs.</p>
+    </div>
+    <div class="menu-item">
+      <img src="C:\Users\varh6\OneDrive\Desktop\Burger\volleyball-ball-fire-court_155027-4878.avif" alt="Burger 3">
+      <h3>Volleyball</h3>
+      <p>Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules</p>
+    </div>
+  </div>
+</section>
+
+<section class="reservations">
+  <div class="reservation-form">
+    <h2>Make a Reservation</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="text" name="Sports Name" placeholder="Which Type Of Sport" required
+      <input type="date" name="date" required>
+      <input type="time" name="time" required>
+      <textarea name="message" placeholder="Additional Message" rows="5"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+
+<section class="testimonials">
+  <h2>Our Diamonds</h2>
+  <div class="testimonial">
+    <img src="C:\Users\varh6\OneDrive\Desktop\Burger\Msd.jpg" alt="Customer 1">
+    <p>He is the only skipper in cricket history to have taken home every ICC trophy</p>
+    <h4>MS Dhoni</h4>
+  </div>
+  <div class="testimonial">
+    <img src="C:\Users\varh6\OneDrive\Desktop\Burger\sindhu.jpg" alt="Sindhu">
+    <p>Pusarla Venkata Sindhu, known as PV Sindhu, is an Indian professional badminton player and the first Indian woman to win an Olympic silver medal.</p>
+    <h4>PV Sindhu</h4>
+  </div>
+</section>
+
+
+<section class="gallery">
+  <h2>Gallery</h2>
+  <div class="image-grid">
+    <div class="image-item">
+      <img src="C:\Users\varh6\OneDrive\Desktop\Burger\220901162946-01-sports-fun-wellness-top-card-stock.jpg" alt="Football">
+    </div>
+    <div class="image-item">
+      <img src="C:\Users\varh6\OneDrive\Desktop\Burger\WhatsApp Image 2023-11-24 at 16.21.29_5d656ff0.jpg" alt="Cricket">
+    </div>
+    <div class="image-item">
+      <img src="C:\Users\varh6\OneDrive\Desktop\Burger\exvzqcvorticinejmmel.jpeg" alt="Volleyball">
+    </div>
+    <div class="image-item">
+      <img src="C:\Users\varh6\OneDrive\Desktop\Burger\WhatsApp Image 2023-11-24 at 16.22.26_9dca1c8a.jpg" alt="Basketball">
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>8-333, Phagwara, Punjab, INDIA</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-phone-alt"></i>
+        <p>+91 1234567890</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <p>info@sportsorganisation.com</p>
+      </div>
+    </div>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-logo">
+      <img src="C:\Users\varh6\OneDrive\Desktop\Burger\png-transparent-olympic-games-verite-2016-summer-olympics-2022-winter-olympics-ring-text-olympic-games-thumbnail-removebg-preview.png" alt="Logo">
+    </div>
+    <nav class="footer-links">
+      <a href="Home.htm">Home</a>
+      <a href="About.html">About</a>
+      <a href="Games.html">Games</a>
+      <a href="Registration.html">Reservations</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+  <p class="footer-text">&copy; 2023 Sports Organisation. All rights reserved.</p>
+</footer>
+
+
+</body>
+
+
+  // home.css
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+/*header*/
+
+header {
+
+  background-color: #070e16;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+
+  height: 60px;
+  margin-left:50px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff0000;
+}
+
+/*hero*/
+
+.hero {
+  background-image: url("footcourt.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+
+
+  text-align: left;
+  color: #fff;
+}
+
+.hero-content {
+  max-width: 600px;
+  padding: 20px;
+  margin-top :50px;
+  margin-left: 4%;
+  
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e60000;
+}
+
+/*about*/
+
+.about {
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.about-content {
+  flex: 1;
+  max-width: 600px;
+  padding-right: 50px;
+  color: #fff;
+  margin-left: 5%;
+  
+  
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  max-width: 50%;
+  margin-right: 5%;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.dark-theme {
+  background-color: #070e16;
+}
+
+
+/* menu*/
+.menu {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #070e16;
+}
+
+.menu h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  max-width: 300px;
+  margin: 0 20px;
+  text-align: left;
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.menu-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.menu-item p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* reservations*/
+
+.reservations {
+
+  background-color: #070e16;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.reservation-form {
+
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #333;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.reservation-form h2 {
+  
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.reservation-form form input,
+.reservation-form form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.reservation-form form button {
+  display: inline-block;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.reservation-form form button:hover {
+  background-color: #e60000;
+}
+
+
+/* Testimonials Section*/
+
+.testimonials {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #070e16;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.testimonial {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  text-align: left;
+}
+
+.testimonial img {
+ display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+.testimonial p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.testimonial h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color:#fff;
+}
+
+
+/* Gallery Section*/
+
+.gallery {
+  background-color:rgb(230, 229, 218);
+  padding: 80px 0;
+  text-align: center;
+  background-color: #070e16;
+}
+
+.gallery h2 {
+  
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.image-grid {
+  background-color:gray;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.image-item img {
+  background-color:green;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+body {
+  background-image: url('back.jpeg'); /* Replace with your background image path */
+  background-size: cover; /* Cover the entire viewport */
+  
+  font-family: Arial, sans-serif; /* Default font for the body */
+  color: white; /* Text color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+
+
+
+/* Contact Section*/
+
+.contact {
+  
+  padding: 80px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.info-item {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.info-item i {
+
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  display: inline-block;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #e60000;
+}
+
+
+/* Footer*/
+
+.footer {
+  background-color: #070e16;
+  padding: 40px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer-logo img {
+  max-width: 150px;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-social a {
+  color: #fff;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+// about.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="about.css">
+	<section class="about dark-theme">
+		<div class="about-content">
+		  <h2>About Sports</h2>
+		  <p>Sport encompasses a wide range of competitive physical activities and games aimed at using, maintaining, or improving physical abilities. It is a universal language that brings people together, fostering unity, sportsmanship, and discipline. Whether played for leisure or at a professional level, sports are integral to a healthy lifestyle.</p>
+		  
+		  <p>Participating in sports offers numerous physical and mental health benefits, such as enhancing cardiovascular fitness, improving muscle strength, boosting mood, and reducing stress. Additionally, sports can foster confidence, build leadership skills, and promote teamwork.</p>
+		  
+		  <h3>Popular Types of Sports</h3>
+		  <ul>
+			<li><strong>Team Sports:</strong> These include games like soccer, basketball, and cricket, where players work together to achieve a common goal. Team sports are excellent for building communication and teamwork skills.</li>
+			<li><strong>Individual Sports:</strong> Sports such as tennis, swimming, and athletics focus on personal performance, helping individuals develop self-discipline and perseverance.</li>
+			<li><strong>Adventure Sports:</strong> Activities like rock climbing, surfing, and skiing are ideal for thrill-seekers. These sports often require specialized skills and promote confidence and resilience.</li>
+			<li><strong>Precision Sports:</strong> Archery, shooting, and golf require high levels of concentration and accuracy, making them perfect for honing focus and patience.</li>
+		  </ul>
+		  
+		  <h3>Benefits of Engaging in Sports</h3>
+		  <p>Engaging in sports regularly contributes to personal development in several ways:</p>
+		  <ul>
+			<li><strong>Physical Health:</strong> Sports improve fitness, reduce the risk of chronic diseases, and promote an active lifestyle.</li>
+			<li><strong>Mental Well-being:</strong> Sports can help combat anxiety and depression, boosting overall mental health through physical activity and social interactions.</li>
+			<li><strong>Social Skills:</strong> Through team-based sports, individuals learn valuable communication and collaboration skills, building lasting friendships and networks.</li>
+			<li><strong>Character Building:</strong> Sports encourage values like discipline, resilience, and a positive attitude towards success and failure.</li>
+		  </ul>
+		  
+		  <a href="exploregames.html" class="btn">Explore More Games</a>
+		</div>
+		
+		<div class="about-image">
+		  <img src="olympic.png" alt="Olympic Games Image">
+		</div>
+	  </section>
+	  
+</head>
+<body>
+	
+</body>
+</html>
+
+
+  //about.css
+
+.about {
+    background-image: url('virat.gg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 4rem 2rem; 
+    color: #fff; /* Change text color for contrast against background */
+  }
+  
+  .about-content {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+
+//games.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+  <section class="menu">
+    <h2>Games</h2>
+    <div class="menu-grid">
+      
+      <div class="menu-item">
+        <img src="ronaldo..jpg" width="180" alt="Football">
+        <h3>Football</h3>
+        <p>Football is one of the most popular games in the world. It is a game of excitement and thrill with unpredictable turns.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="virat.gg.jpg" width="180" alt="Cricket">
+        <h3>Cricket</h3>
+        <p>Cricket is a worldwide favorite involving two teams of 11 players, aiming to score the highest number of runs.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="volley.gg.jpg" width="180" alt="Volleyball">
+        <h3>Volleyball</h3>
+        <p>Volleyball is a team sport with two teams of six players, each aiming to ground the ball on the opponent's court.</p>
+      </div>
+  
+      
+      <div class="menu-item">
+        <img src="boxing1.jpeg" width="180" alt="Boxing">
+        <h3>Boxing</h3>
+        <p>Boxing is a combat sport with two competitors, typically in a ring, trying to outscore each other with punches.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="tennis.jpeg" width="180" alt="Tennis">
+        <h3>Tennis</h3>
+        <p>Tennis is played individually or in teams, where players hit a ball over a net using a racket.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="basket.jpeg" width="180" alt="Basketball">
+        <h3>Basketball</h3>
+        <p>Basketball is a team sport with two teams aiming to shoot the ball through the opposing team's hoop.</p>
+      </div>
+  
+      
+      <div class="menu-item">
+        <img src="badmonton.jpeg" width="180" alt="Badminton">
+        <h3>Badminton</h3>
+        <p>Badminton is played with rackets, where players hit a shuttlecock over a net aiming to land it in the opponent's court.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="swimming.jpeg" width="180" alt="Swimming">
+        <h3>Swimming</h3>
+        <p>Swimming is an individual or team racing sport requiring full body movement to navigate water.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="table tennis.jpeg" width="180" alt="Table Tennis">
+        <h3>Table Tennis</h3>
+        <p>Table tennis is played with small paddles, where players hit a lightweight ball across a table with a net.</p>
+      </div>
+  
+      
+      <div class="menu-item">
+        <img src="golf.jpeg" width="180" alt="Golf">
+        <h3>Golf</h3>
+        <p>Golf is a sport where players use clubs to hit balls into a series of holes on a course in as few strokes as possible.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="rugby1.jpeg" width="180" alt="Rugby">
+        <h3>Rugby</h3>
+        <p>Rugby is a contact team sport where players carry, kick, or pass a ball to score points against the other team.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="hockey.jpeg" width="180" alt="Hockey">
+        <h3>Hockey</h3>
+        <p>Hockey is played on ice or field, where teams use sticks to hit a puck or ball into the opponent's goal.</p>
+      </div>
+  
+      
+      <div class="menu-item">
+        <img src="karate.jpeg" width="180" alt="Karate">
+        <h3>Karate</h3>
+        <p>Karate is a martial art that emphasizes striking techniques such as punching, kicking, knee strikes, and elbow strikes.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="skating.jpeg" width="180" alt="Skating">
+        <h3>Skating</h3>
+        <p>Skating involves gliding on ice or smooth surfaces using ice skates or roller skates, often for speed or tricks.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="archery.jpeg" width="180" alt="Archery">
+        <h3>Archery</h3>
+        <p>Archery is a skill of using a bow to shoot arrows at a target for accuracy and precision.</p>
+      </div>
+  
+     
+      <div class="menu-item">
+        <img src="fencing.jpeg" width="180" alt="Fencing">
+        <h3>Fencing</h3>
+        <p>Fencing is a combat sport with three main styles, where two opponents duel using foil, epee, or saber.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="squash.jpeg" width="180" alt="Squash">
+        <h3>Squash</h3>
+        <p>Squash is a fast-paced indoor racket sport where players hit a ball against a wall aiming for precision.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="cycling.jpeg" width="180" alt="Cycling">
+        <h3>Cycling</h3>
+        <p>Cycling is a sport or recreation that involves riding bicycles over various distances and terrains.</p>
+      </div>
+  
+      
+      <div class="menu-item">
+        <img src="surfing.jpeg" width="180" alt="Surfing">
+        <h3>Surfing</h3>
+        <p>Surfing is a water sport where participants ride waves on a board, aiming for balance and control.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="gymnatics.jpeg" width="180" alt="Gymnastics">
+        <h3>Gymnastics</h3>
+        <p>Gymnastics is a sport involving physical exercises that require balance, strength, flexibility, and coordination.</p>
+      </div>
+  
+      <div class="menu-item">
+        <img src="skiing.jpeg" width="180" alt="Skiing">
+        <h3>Skiing</h3>
+        <p>Skiing is a winter sport where participants use skis to glide on snow, commonly performed on slopes or trails.</p>
+      </div>
+  
+    </div>
+  </section>
+  
+  
+</body>
+</html>
+
+
+  //contact.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        body {
+            background-image: url("pixelcut-export\ \(3\).jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        label {
+            display: block;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="number"], input[type="password"] {
+            width: 400px;
+            height: 40px;
+            padding: 10px;
+            border: 4px solid rgb(150, 54, 54);
+            border-radius: 10px;
+            background-color: cornsilk;
+        }
+        input:focus {
+            background-color: rgb(16, 82, 82);
+        }
+        input[type="submit"] {
+            background-color: black;
+            padding: 10px;
+            height: 60px;
+            width: 420px;
+            border: 4px solid red;
+            border-radius: 10px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function validateForm() {
+            // Get input values
+            var userId = document.getElementById('uid').value;
+            var mobileNumber = document.getElementById('mob').value;
+            var password = document.getElementById('pass').value;
+            var confirmPassword = document.getElementById('cnfm').value;
+
+            // Validate fields
+            if (userId === "" || mobileNumber === "" || password === "" || confirmPassword === "") {
+                alert("All fields are mandatory");
+                return false;
+            } else if (mobileNumber.length !== 10) {
+                alert("Mobile number should be exactly 10 digits");
+                return false;
+            } else if (isNaN(mobileNumber)) {
+                alert("Mobile number must contain digits only");
+                return false;
+            } else if (password !== confirmPassword) {
+                alert("Passwords do not match");
+                return false;
+            } else {
+                alert("Form submitted successfully!");
+                return true;
+            }
+        }
+    </script>
+
+    <form onsubmit="return validateForm()" action="home.html" method="get">
+        <label for="uid">UserID</label>
+        <input type="text" id="uid"><br><br>
+
+        <label for="mob">Mobile no:</label>
+        <input type="number" id="mob"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="pass"><br><br>
+
+        <label for="cnfm">Confirm password:</label>
+        <input type="password" id="cnfm"><br><br>
+
+        <input type="submit" value="Submit Form">
+    </form>
+</body>
+</html>
+
+
+// gallery html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+  
+  <h1>gallery</h1>
+    <div class="image-grid">
+      <div class="image-item">
+        <h3>Football</h3>
+        <img src="football.jpeg" alt="Football">
+      </div>
+      <div class="image-item">
+        <h3>Basketball</h3>
+        <img src="basket.jpeg" alt="Basketball">
+      </div>
+      <div class="image-item">
+        <h3>Cricket</h3>
+        <img src="cricket.jpeg" alt="Cricket">
+      </div>
+      <div class="image-item">
+        <h3>Tennis</h3>
+        <img src="tennis.jpeg" alt="Tennis">
+      </div>
+      <div class="image-item">
+        <h3>Baseball</h3>
+        <img src="baseball.jpeg" alt="Baseball">
+      </div>
+      <div class="image-item">
+        <h3>Hockey</h3>
+        <img src="hockey.jpeg" alt="Hockey">
+      </div>
+      <div class="image-item">
+        <h3>Golf</h3>
+        <img src="golf.jpeg"    alt="Golf">
+      </div>
+      <div class="image-item">
+        <h3>Swimming</h3>
+        <img src="swimming.jpeg" alt="Swimming">
+      </div>
+      <div class="image-item">
+        <h3>Rugby</h3>
+        <img src="rugby.jpeg" alt="Rugby">
+      </div>
+      <div class="image-item">
+        <h3>Boxing</h3>
+        <img src="boxing.jpeg" alt="Boxing">
+      </div>
+      <div class="image-item">
+        <h3>Volleyball</h3>
+        <img src="volleyball-ball-fire-court_155027-4878.avif" alt="Volleyball">
+      </div>
+      <div class="image-item">
+        <h3>Badminton</h3>
+        <img src="badminton.jpeg" alt="Badminton">
+      </div>
+      <div class="image-item">
+        <h3>Table Tennis</h3>
+        <img src="tennis table.jpeg" alt="Table Tennis">
+      </div>
+      <div class="image-item">
+        <h3>Softball</h3>
+        <img src="softball.jpeg" alt="Softball">
+      </div>
+      <div class="image-item">
+        <h3>Martial Arts</h3>
+        <img src="martial'.jpeg" alt="Martial Arts">
+      </div>
+      <div class="image-item">
+        <h3>Gymnastics</h3>
+        <img src="gymnatics.jpeg" alt="Gymnastics">
+      </div>
+      <div class="image-item">
+        <h3>Track and Field</h3>
+        <img src="track(1).jpeg" alt="Track and Field">
+      </div>
+      <div class="image-item">
+        <h3>Fencing</h3>
+        <img src="fencing.jpeg" alt="Fencing">
+      </div>
+      <div class="image-item">
+        <h3>Wrestling</h3>
+        <img src="wrestling.jpeg" alt="Wrestling">
+      </div>
+      <div class="image-item">
+        <h3>Ice Hockey</h3>
+        <img src="ice hockey.jpeg" alt="Ice Hockey">
+      </div>
+      <div class="image-item">
+        <h3>Surfing</h3>
+        <img src="surfing.jpeg" alt="Surfing">
+      </div>
+      <div class="image-item">
+        <h3>Skateboarding</h3>
+        <img src="skaterbording.jpeg" alt="Skateboarding">
+      </div>
+      <div class="image-item">
+        <h3>Climbing</h3>
+        <img src="climbing.jpeg" alt="Climbing">
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+
+//shop.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Shop - Clothes and Accessories</title>
+    <link rel="stylesheet" href="shop.css">
+    <style>
+        
+        .filter-btn {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .filter-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="page-title">Shop Sports Clothing & Accessories</h1>
+    
+    
+    <div class="filter-buttons">
+        <button class="filter-btn" onclick="filterItems('all')">All</button>
+        <button class="filter-btn" onclick="filterItems('clothing')">Clothing</button>
+        <button class="filter-btn" onclick="filterItems('bats')">Bats</button>
+        <button class="filter-btn" onclick="filterItems('balls')">Balls</button>
+        <button class="filter-btn" onclick="filterItems('tennis')">Tennis</button>
+        <button class="filter-btn" onclick="filterItems('accessories')">Accessories</button>
+    </div>
+
+    
+    <div class="shop-gallery">
+        
+        <div class="shop-item" data-category="clothing">
+            <img src="sport shirt.jpeg" alt="Sport Shirt">
+            <h3>Sport Shirt</h3>
+            <p>RS.449</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        <div class="shop-item" data-category="clothing">
+            <img src="running short.jpeg" alt="Running Shorts">
+            <h3>Running Shorts</h3>
+            <p>RS.399</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        
+        <div class="shop-item" data-category="bats">
+            <img src="bat.jpeg" alt="Cricket Bat">
+            <h3>Cricket Bat</h3>
+            <p>RS.2000</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        <div class="shop-item" data-category="bats">
+            <img src="baseball bat..jpeg" alt="Baseball Bat">
+            <h3>Baseball Bat</h3>
+            <p>RS.1000</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        
+        <div class="shop-item" data-category="balls">
+            <img src="soccerball.jpeg" alt="Soccer Ball">
+            <h3>Soccer Ball</h3>
+            <p>RS.900</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        <div class="shop-item" data-category="balls">
+            <img src="baseketball.jpeg" alt="Basketball">
+            <h3>Basketball</h3>
+            <p>RS.799</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        
+        <div class="shop-item" data-category="tennis">
+            <img src="tennis racket.jpeg" alt="Tennis Racket">
+            <h3>Tennis Racket</h3>
+            <p>RS.1099</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        <div class="shop-item" data-category="tennis">
+            <img src="tennis ball.jpeg" alt="Tennis Balls">
+            <h3>Tennis Balls (Pack of 3)</h3>
+            <p>RS.199</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        
+        <div class="shop-item" data-category="accessories">
+            <img src="gym bag.jpeg" alt="Gym Bag">
+            <h3>Gym Bag</h3>
+            <p>RS.149</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        <div class="shop-item" data-category="accessories">
+            <img src="gloves.jpeg" alt="Sports Gloves">
+            <h3>Sports Gloves</h3>
+            <p>RS.460</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        <div class="shop-item" data-category="accessories">
+            <img src="resistance band.jpeg" alt="Resistance Band">
+            <h3>Resistance Band</h3>
+            <p>RS.299</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        <div class="shop-item" data-category="accessories">
+            <img src="yogamat.jpeg" alt="Yoga Mat">
+            <h3>Yoga Mat</h3>
+            <p>RS.799</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+
+    
+</body>
+</html>
+
+
+//shop.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Shop - Clothes and Accessories</title>
+    <link rel="stylesheet" href="shop.css">
+    <style>
+        
+        .filter-btn {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .filter-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="page-title">Shop Sports Clothing & Accessories</h1>
+    
+    
+    <div class="filter-buttons">
+        <button class="filter-btn" onclick="filterItems('all')">All</button>
+        <button class="filter-btn" onclick="filterItems('clothing')">Clothing</button>
+        <button class="filter-btn" onclick="filterItems('bats')">Bats</button>
+        <button class="filter-btn" onclick="filterItems('balls')">Balls</button>
+        <button class="filter-btn" onclick="filterItems('tennis')">Tennis</button>
+        <button class="filter-btn" onclick="filterItems('accessories')">Accessories</button>
+    </div>
+
+    
+    <div class="shop-gallery">
+        
+        <div class="shop-item" data-category="clothing">
+            <img src="sport shirt.jpeg" alt="Sport Shirt">
+            <h3>Sport Shirt</h3>
+            <p>RS.449</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        <div class="shop-item" data-category="clothing">
+            <img src="running short.jpeg" alt="Running Shorts">
+            <h3>Running Shorts</h3>
+            <p>RS.399</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        
+        <div class="shop-item" data-category="bats">
+            <img src="bat.jpeg" alt="Cricket Bat">
+            <h3>Cricket Bat</h3>
+            <p>RS.2000</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        <div class="shop-item" data-category="bats">
+            <img src="baseball bat..jpeg" alt="Baseball Bat">
+            <h3>Baseball Bat</h3>
+            <p>RS.1000</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        
+        <div class="shop-item" data-category="balls">
+            <img src="soccerball.jpeg" alt="Soccer Ball">
+            <h3>Soccer Ball</h3>
+            <p>RS.900</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        <div class="shop-item" data-category="balls">
+            <img src="baseketball.jpeg" alt="Basketball">
+            <h3>Basketball</h3>
+            <p>RS.799</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        
+        <div class="shop-item" data-category="tennis">
+            <img src="tennis racket.jpeg" alt="Tennis Racket">
+            <h3>Tennis Racket</h3>
+            <p>RS.1099</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        <div class="shop-item" data-category="tennis">
+            <img src="tennis ball.jpeg" alt="Tennis Balls">
+            <h3>Tennis Balls (Pack of 3)</h3>
+            <p>RS.199</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        
+        <div class="shop-item" data-category="accessories">
+            <img src="gym bag.jpeg" alt="Gym Bag">
+            <h3>Gym Bag</h3>
+            <p>RS.149</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        <div class="shop-item" data-category="accessories">
+            <img src="gloves.jpeg" alt="Sports Gloves">
+            <h3>Sports Gloves</h3>
+            <p>RS.460</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        <div class="shop-item" data-category="accessories">
+            <img src="resistance band.jpeg" alt="Resistance Band">
+            <h3>Resistance Band</h3>
+            <p>RS.299</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+        
+        <div class="shop-item" data-category="accessories">
+            <img src="yogamat.jpeg" alt="Yoga Mat">
+            <h3>Yoga Mat</h3>
+            <p>RS.799</p>
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+
+    
+</body>
+</html>
+//shop.css
+
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.page-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.shop-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.shop-item {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.shop-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.shop-item h3 {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.shop-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+.buy-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #0077cc;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.buy-btn:hover {
+    background-color: #005fa3;
+}
+
+.shop-item:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+//signup code
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+       
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <script defer src="signup.js"></script> 
+    <style>
+        
+        body {
+    background-image:url(pixelcut-export\ \(4\).jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background: linear-gradient(rgba(75, 110, 153, 0.388), rgba(27, 27, 104, 0.557));
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    display: inline-block;
+    color: azure;
+    font-size: 35px;
+    padding-left: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+#div2 {
+    float: right;
+    margin-top: 40px;
+    padding-right: 10px;
+    word-spacing: 20px;
+    font-size: 20px;
+
+}
+
+main {
+    border: white;
+    float: right;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: rgba(5, 6, 6, 0.347);
+    margin-top: 40px;
+    margin-right: 180px;
+    width: fit-content;
+    color: azure;
+}
+
+#footer {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 800px;
+    background-color: rgba(245, 245, 220, 0.342);
+    text-align: center;
+    color: azure;
+}
+
+#signup {
+    width: 280px;
+}
+a:hover{
+    color: rgb(193, 144, 144);
+}
+    </style>
+</head>
+
+<body>
+   
+    <header>
+        <div id="div1">
+            <h1>Electro sports</h1>
+            <div id="div2">
+                <form id="myform"<h3>Backtohome</h3> <action="Home.html">
+                   
+        </div>
+    </header>
+
+    <main>
+       
+        <div id="signup">
+            <div>
+                <form id="myform" action="home.html">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" onkeyup="validdateName()" required>
+                    <div class="message" id="namemessage"></div>
+            
+                <h2><i class="fa-solid fa-user"></i>&nbsp; Sign_up</h2>
+            </div>
+            <form id="signup-form">
+                <div>
+                    <label for="firstName">First name:</label>
+                    <input type="text" id="firstName" placeholder="Enter your first name" required>
+                </div><br>
+                <div>
+                    <label for="lastName">Last name:</label>
+                    <input type="text" id="lastName" placeholder="Enter your last name" required>
+                </div><br>
+                <div>
+                    <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="email" id="email" placeholder="Enter your email id" required>
+                </div><br>
+                <div>
+                    <label for="phone">Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="tel" id="phone" placeholder="Enter your mobile num" required>
+                </div><br>
+                <div>
+                    <label>Gender:</label>
+                    <input type="radio" name="gender" id="male" value="Male" required> Male
+                    <input type="radio" name="gender" id="female" value="Female"> Female
+                </div><br>
+                <div>
+                    <label for="region">Region:</label>
+                    <select id="region" required>
+                        <option value="">Select</option>
+                        <option value="India">India</option>
+                        <option value="America">America</option>
+                        <option value="China">China</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Russia">Russia</option>
+                        <option value="U.K">U.K</option>
+                        <option value="Africa">Africa</option>
+                        <option value="Antarctica">Antarctica</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label for="city">City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" id="city" placeholder="Enter your city" required>
+                </div><br>
+                <div>
+                    <label for="address">Address:</label>
+                    <textarea id="address" placeholder="Enter your address" required></textarea>
+                </div><br>
+                <div>
+                    <input type="checkbox" id="terms" required> Agree to all the terms and conditions
+                </div><br>
+                <div>
+                    <button type="submit">Sign up!!</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <div id="footer">
+        <p>&copy all rights reserved</p>
+    </div>
+</body>
+
+</html>
+
+  

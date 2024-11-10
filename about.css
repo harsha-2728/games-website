@@ -1,0 +1,21 @@
+.about {
+    background-image: url('virat.gg.jpg'); 
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    padding: 4rem 2rem; /* Add padding to the section */
+    color: #fff; /* Change text color for contrast against background */
+  }
+  
+  .about-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 2rem;
+    border-radius: 8px; /* Add rounded corners to the content area */
+  }
+  
+  .about-image img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Add rounded corners to the image */
+  }
+  
